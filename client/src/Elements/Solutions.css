@@ -1,0 +1,11 @@
+.solutions-titlebar {
+  background-color: hsl(241, 43%, 68%);
+  min-height: 30vh;
+  z-index: 1;
+}
+
+.solutions {
+  background-color: hsl(241, 42%, 100%);
+  min-height: 80vh;
+  z-index: 1;
+}

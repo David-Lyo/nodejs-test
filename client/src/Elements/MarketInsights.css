@@ -1,0 +1,5 @@
+.market-insights {
+  background-color: hsl(241, 42%, 90%);
+  min-height: 65vh;
+  z-index: 1;
+}

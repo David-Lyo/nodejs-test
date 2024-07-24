@@ -1,28 +1,58 @@
 .hero {
+  transition: opacity 0.5s ease;
   background: url('../city.png');
   background-size: cover;
+  background-position: center;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: top;
   align-items: center;
   object-fit: cover;
+  z-index: 1;
 }
 
 .hero-wrapper {
-  background: linear-gradient(90deg, rgb(0, 0, 0, 0.5) 35%, rgb(0, 0, 0, 0) 65%);
+  background-color: #0005;
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: top;
   align-items: left;
+  z-index: 1;
 }
 
 .hero-title {
-  margin: 40vh 80vh 0vh 10vh;
+  display: flex;
+  margin: 35vh 4vw 0vh 4vw;
+  color: #fff;
+  font-size: 80px;
+  font-weight: normal;
+  z-index: 5;
+}
+
+.hero-image {
+  display: flex;
+  margin: 5vh 8vw 0vh 0vw;
   color: #fff;
   font-size: 72px;
-  z-index: 2;
+  z-index: 5;
+}
+
+.opacity-35pct {
+  opacity: 0.35;
+}
+
+.vert-hero-wrapper {
+  flex-direction: column;
+}
+
+.vert-hero-title {
+  font-size: 70px;
+  margin: 15vh 4vw 0vh 4vw;
+}
+
+.vert-hero-image {
+  margin: 4vh 15vw 0vh 15vw;
 }

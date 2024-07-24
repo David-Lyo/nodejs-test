@@ -1,16 +1,19 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
 .navbar {
-  background: linear-gradient(90deg, rgb(15, 15, 19, 0.8) 0%, rgb(19, 15, 15, 0.9) 100%);
+  background: linear-gradient(90deg, rgb(91, 0, 209, 0.8) 0%, rgb(91, 0, 209, 0.9) 100%);
   height: 80px;
+  width: 100vw;
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 36;
 }
 
 .navbar-logo {
-  justify-self: left;
   margin-left: 15px;
   margin-right: 15px;
   cursor: pointer;
@@ -40,18 +43,28 @@
 }
 
 .navbar-signup {
-  border-color: #0000;
-  background-color: #0000;
+  background-color: #0002;
+  border-color: #eee;
+  border-style: solid;
+  border-radius: 25px;
   color: #eee;
-  justify-self: right;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: 30px;
   cursor: pointer;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.4rem;
-  font-weight: 600;
-  height: 80px;
-  width: 200px;
+  font-size: 1.3rem;
+  height: 50px;
+  width: 170px;
+}
+
+.navbar-burger {
+  border-style: none;
+  background-color: #0000;
+  font-size: 40px;
+  color: #eee;
+  margin-left: auto;
+  margin-right: 30px;
 }

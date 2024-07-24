@@ -1,8 +1,13 @@
-.app{
-  display: grid;
+.color {
+  z-index: -1;
+  position: absolute;
+  background-color: hsl(241, 43%, 68%);
+  height: 100vh;
+  width: 100%;
 }
 
-.layer1, .layer2{
-  grid-column: 1;
-  grid-row: 1;
+.test {
+  z-index: 36;
+  position: absolute;
+  height: auto;
 }
