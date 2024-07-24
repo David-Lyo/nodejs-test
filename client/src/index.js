@@ -6,6 +6,10 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
+import About from './Routes/About';
+import Markets from './Routes/Markets';
+import Pricing from './Routes/Pricing';
+import Docs from './Routes/Docs';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -16,8 +20,20 @@ const router = createBrowserRouter([
   },
   {
     path: "/about/",
-    element: <h2>About</h2>,
+    element: <About />,
   },
+  {
+    path: "/markets/",
+    element: <Markets />,
+  },
+  {
+    path: "/pricing/",
+    element: <Pricing />,
+  },
+  {
+    path: "/docs/",
+    element: <Docs />,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
